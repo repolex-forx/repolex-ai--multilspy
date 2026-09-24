@@ -1,5 +1,41 @@
 {
   "org": "repolex-ai",
   "repo": "multilspy",
-  "versions": []
+  "versions": [
+    {
+      "commit": "18a781ec9e50767c3af992d3cb91465ece936d6b",
+      "tag": "",
+      "parsed_at": "2026-09-24T09:52:49.544548+00:00"
+    },
+    {
+      "commit": "06404bec030a61835143833eb71372cde77cef91",
+      "tag": "",
+      "parsed_at": "2026-09-18T07:12:27.306350+00:00"
+    },
+    {
+      "commit": "9c72b23452f42f4824c7b6ca9aaa6af5f0e012bc",
+      "tag": "",
+      "parsed_at": "2026-09-18T03:58:07.388090+00:00"
+    },
+    {
+      "commit": "ba815b6c45ac129d84443d34a672a2530ac8e45f",
+      "tag": "",
+      "parsed_at": "2026-09-18T02:24:24.376444+00:00"
+    },
+    {
+      "commit": "2ec7a428c2f0378154dbc277cb88fe0be66617dd",
+      "tag": "",
+      "parsed_at": "2026-09-18T02:03:31.735925+00:00"
+    },
+    {
+      "commit": "63e88426dc3c3cabb3dedfdea2493f3ed395212d",
+      "tag": "",
+      "parsed_at": "2026-09-17T09:00:32.560476+00:00"
+    },
+    {
+      "commit": "b07b682bb8912bd485e8608a78595e78425e8c40",
+      "tag": "main",
+      "parsed_at": "2026-09-05T02:16:49.356004+00:00"
+    }
+  ]
 }
