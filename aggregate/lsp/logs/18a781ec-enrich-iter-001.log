@@ -1,0 +1,22 @@
+[2026-09-24T08:47:45Z] === ENRICH ITERATION 1 START | repo=repolex-ai/multilspy sha=18a781ec ===
+[2026-09-24T08:47:45Z] [iter=1] PHASE START: enrich repo=repolex-ai/multilspy sha=18a781ec runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/18a781ec-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/18a781ec9e50767c3af992d3cb91465ece936d6b.nq.gz
+[2026-09-24T08:47:48Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-24T08:47:53Z] [iter=1] AST store loaded triples=614736 load_secs=5 mem_mb=836 MB
+[2026-09-24T08:47:53Z] [iter=1] Step 2: Finding LSP targets mem_mb=836 MB
+[2026-09-24T08:47:55Z] [iter=1] LSP targets found call_sites=2783 imports=89 extends=4 implements=0 secs=1
+[2026-09-24T08:47:56Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=836 MB
+[2026-09-24T08:47:59Z] [iter=1] Position index built positions=42421 nodes_with_types=55719 secs=4 mem_mb=836 MB
+[2026-09-24T08:47:59Z] [iter=1] Step 3: Starting LSP resolution mem_mb=836 MB already_completed_types=[] already_completed_files=0
+[2026-09-24T08:47:59Z] [iter=1] Resolving target type target_type=call_site count=2783
+[2026-09-24T08:48:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=4 resolved=191 errors=68 current=tests/multilspy/test_multilspy_swift.py
+[2026-09-24T08:48:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=13 resolved=824 errors=172 current=src/multilspy/language_servers/omnisharp/omnisharp.py
+[2026-09-24T08:49:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=17 resolved=1180 errors=282 current=tests/multilspy/test_multilspy_rust.py
+[2026-09-24T08:50:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=38 resolved=1880 errors=433 current=tests/multilspy/test_multilspy_go.py
+[2026-09-24T08:50:24Z] [iter=1] Target type resolved target_type=call_site resolved=2195 errors=488 secs=145 mem_mb=836 MB
+[2026-09-24T08:50:24Z] [iter=1] Resolving target type target_type=import_statement count=89
+[2026-09-24T08:50:26Z] [iter=1] Target type resolved target_type=import_statement resolved=87 errors=0 secs=2 mem_mb=836 MB
+[2026-09-24T08:50:26Z] [iter=1] Resolving target type target_type=extends_clause count=4
+[2026-09-24T08:50:27Z] [iter=1] Target type resolved target_type=extends_clause resolved=4 errors=0 secs=1 mem_mb=836 MB
+[2026-09-24T08:50:32Z] [iter=1] Step 5: Writing final enrichment file triples=38574
+[2026-09-24T08:50:32Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/18a781ec9e50767c3af992d3cb91465ece936d6b.nq.gz size_kb=768
+[2026-09-24T08:50:32Z] [iter=1] PHASE END: enrich elapsed_s=167 elapsed_min=2.8 total_triples=38574

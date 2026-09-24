@@ -884,6 +884,64 @@
       ],
       "ast": [
         "aggregate/ast/18a781ec9e50767c3af992d3cb91465ece936d6b/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/18a781ec9e50767c3af992d3cb91465ece936d6b.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.32.3",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "0e322af87745eff34caffe4df68456ebc20d9068",
+          "githubTag": "v2.32.3",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.2.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "7d76a775b0ddd7632e654adc05ab2968727a2807",
+          "githubTag": "4.2.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "7.0.0",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubCommit": "ea5b55605f857affa4e65fa27eb80f4f2bfebd63",
+          "githubTag": "v7.0.0",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.3.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "dab199281c8f969ef870d842a660e40872785bd4",
+          "githubTag": "7.3.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest-asyncio",
+          "ecosystem": "PYPI",
+          "version": "0.21.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-asyncio",
+          "githubCommit": "a10cbde05ff46b44f37a79b937a8dd38230f232a",
+          "githubTag": "v0.21.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:requirements.txt"
+        }
       ]
     }
   ],
