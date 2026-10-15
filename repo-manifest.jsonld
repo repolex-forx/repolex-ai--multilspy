@@ -47,6 +47,11 @@
       "git:hexsha": "18a781ec9e50767c3af992d3cb91465ece936d6b",
       "repolex:parseStatus": "parsed",
       "repolex:parsedAt": "2026-09-24T09:52:49.544212+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/repolex-ai/multilspy/commit/95b0a985fb4c0211c6f6f5a272f203c56c35d1fe",
+      "git:hexsha": "95b0a985fb4c0211c6f6f5a272f203c56c35d1fe",
+      "repolex:parseStatus": "metadata_complete"
     }
   ]
 }
