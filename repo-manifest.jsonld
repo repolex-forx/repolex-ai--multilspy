@@ -62,6 +62,11 @@
       "@id": "https://repolex.ai/r/repolex-ai/multilspy/commit/63921597fb7a69ed35803cacc6c41b589b98aee4",
       "git:hexsha": "63921597fb7a69ed35803cacc6c41b589b98aee4",
       "repolex:parseStatus": "metadata_complete"
+    },
+    {
+      "@id": "https://repolex.ai/r/repolex-ai/multilspy/commit/f21260980401678c134eabbd80c265d40ed8f7d2",
+      "git:hexsha": "f21260980401678c134eabbd80c265d40ed8f7d2",
+      "repolex:parseStatus": "metadata_complete"
     }
   ]
 }
